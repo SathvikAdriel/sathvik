@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "73038f74-586a-4f7d-9ae8-753ea0697067",
+		"name": "Assignment API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33814093"
+	},
+	"item": [
+		{
+			"name": "user registration api",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"ownerName\":\"saket kumar Sharma\",\"contact1\":\"9999999\",\"businessName\":\"Janta20 Kirana store\",\"address\":\"32 pricanco colony ,annapurna road \",\"state\":\"MP\",\"city\":\"Indore\",\"email\":\"\",\"website\":\"\",\"dealerName\":\"\",\"other\":\"hfhfhfh\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/RegistrationAPI/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"RegistrationAPI",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "/environments/{{envID}}/signOnPolicies",
+					"path": [
+						"environments",
+						"{{envID}}",
+						"signOnPolicies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.postman.com/statushub/statushub-s-public-workspace/request/5o7r7km/show?action=share&source=copy-link&creator=33814093&ctx=documentation",
+					"protocol": "https",
+					"host": [
+						"www",
+						"postman",
+						"com"
+					],
+					"path": [
+						"statushub",
+						"statushub-s-public-workspace",
+						"request",
+						"5o7r7km",
+						"show"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "share"
+						},
+						{
+							"key": "source",
+							"value": "copy-link"
+						},
+						{
+							"key": "creator",
+							"value": "33814093"
+						},
+						{
+							"key": "ctx",
+							"value": "documentation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://www.postman.com/statushub/statushub-s-public-workspace/request/uqohh8o/index?action=share&source=copy-link&creator=33814093&ctx=documentation",
+					"protocol": "https",
+					"host": [
+						"www",
+						"postman",
+						"com"
+					],
+					"path": [
+						"statushub",
+						"statushub-s-public-workspace",
+						"request",
+						"uqohh8o",
+						"index"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "share"
+						},
+						{
+							"key": "source",
+							"value": "copy-link"
+						},
+						{
+							"key": "creator",
+							"value": "33814093"
+						},
+						{
+							"key": "ctx",
+							"value": "documentation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://www.postman.com/statushub/statushub-s-public-workspace/request/egduhhd/delete?action=share&source=copy-link&creator=33814093&ctx=documentation",
+					"protocol": "https",
+					"host": [
+						"www",
+						"postman",
+						"com"
+					],
+					"path": [
+						"statushub",
+						"statushub-s-public-workspace",
+						"request",
+						"egduhhd",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "share"
+						},
+						{
+							"key": "source",
+							"value": "copy-link"
+						},
+						{
+							"key": "creator",
+							"value": "33814093"
+						},
+						{
+							"key": "ctx",
+							"value": "documentation"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
